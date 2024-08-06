@@ -20,3 +20,4 @@ Route::middleware([
         return Inertia::render('Dashboard');
     })->name('dashboard');
 });
+require __DIR__.'/socialstream.php';require __DIR__.'/socialstream.php';
