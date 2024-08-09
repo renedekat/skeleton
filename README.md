@@ -25,9 +25,13 @@ REVERB_VERIFY=false
 ## Testing
 Create a .env.testing file if you want. Behat sets the environment to testing.
 
-### Behat
+### Acceptance testing
 `./vendor/bin/behat`
+
+### Unit and Feature testing
 `php artisan test`
+
+### Front-end testing
 `php artisan dusk`
 
 ## Usage
