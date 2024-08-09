@@ -82,7 +82,11 @@ const submit = () => {
                     Forgot your password?
                 </Link>
 
-                <PrimaryButton :class="{ 'opacity-25': form.processing }" :disabled="form.processing" class="ml-4">
+                <PrimaryButton
+                    :class="{ 'opacity-25': form.processing }"
+                    :disabled="form.processing" class="ml-4"
+                    dusk="login-button"
+                >
                     Log in
                 </PrimaryButton>
             </div>

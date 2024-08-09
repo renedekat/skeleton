@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5966bc6795f8233c9107ba1d47a68797",
+    "content-hash": "0a231c98c1ab0db5453656dc039112c8",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -9291,50 +9291,6 @@
                 }
             ],
             "time": "2024-02-20T07:24:02+00:00"
-        },
-        {
-            "name": "cevinio/behat-laravel-extension",
-            "version": "4.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Cevinio/Behat-Laravel-Extension.git",
-                "reference": "e3ca15b41e9569c7088927b7a7515cc24245fcb2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Cevinio/Behat-Laravel-Extension/zipball/e3ca15b41e9569c7088927b7a7515cc24245fcb2",
-                "reference": "e3ca15b41e9569c7088927b7a7515cc24245fcb2",
-                "shasum": ""
-            },
-            "require": {
-                "behat/behat": "^3.14",
-                "behat/mink-browserkit-driver": "^2.2",
-                "friends-of-behat/mink-extension": "^2.6.1",
-                "laravel/framework": ">=10.0",
-                "php": ">=8.1"
-            },
-            "type": "behat-extension",
-            "autoload": {
-                "psr-4": {
-                    "Cevinio\\Behat\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Laravel extension for Behat",
-            "keywords": [
-                "BDD",
-                "Behat",
-                "extension",
-                "laravel"
-            ],
-            "support": {
-                "issues": "https://github.com/Cevinio/Behat-Laravel-Extension/issues",
-                "source": "https://github.com/Cevinio/Behat-Laravel-Extension/tree/4.0.0"
-            },
-            "time": "2024-03-20T15:49:55+00:00"
         },
         {
             "name": "fakerphp/faker",

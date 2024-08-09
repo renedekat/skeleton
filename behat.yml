@@ -1,17 +1,6 @@
 default:
-  extensions:
-    Cevinio\Behat:
-    # bootstrap_path: ~
-    # env_path: ~
-    Behat\MinkExtension:
-      default_session: laravel
-      laravel: ~
-      files_path: "%paths.base%/tests/"
-
-  # Your test suites here
   suites:
     cat:
       paths: [ '%paths.base%/tests/acceptance/features' ]
-      # The context needed by your features tests
       contexts:
         - Tests\Acceptance\Contexts\ExampleContext: ~

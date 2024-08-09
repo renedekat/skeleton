@@ -19,8 +19,10 @@
         "tightenco/ziggy": "^2.0"
     },
     "require-dev": {
-        "cevinio/behat-laravel-extension": "^4.0",
+        "behat/behat": "^3.14",
+        "behat/mink-browserkit-driver": "^2.2",
         "fakerphp/faker": "^1.23",
+        "friends-of-behat/mink-extension": "^2.7",
         "laravel/dusk": "^8.2",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",

@@ -22,6 +22,14 @@ Update your .env file for Reverb
 On your local machine you might have to set verify_peer for Push to false
 REVERB_VERIFY=false
 
+## Testing
+Create a .env.testing file if you want. Behat sets the environment to testing.
+
+### Behat
+`./vendor/bin/behat`
+`php artisan test`
+`php artisan dusk`
+
 ## Usage
 
 Start ssr rendering: `php artisan inertia:start-ssr`<br>
