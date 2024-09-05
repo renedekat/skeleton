@@ -1,0 +1,6 @@
+default:
+  suites:
+    cat:
+      paths: [ '%paths.base%/tests/acceptance/features' ]
+      contexts:
+        - Tests\Acceptance\Contexts\ExampleContext: ~
