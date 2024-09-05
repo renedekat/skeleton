@@ -1,0 +1,24 @@
+{% for entry in tree %}
+
+## {{ entry.version }}{% if entry.date %} ({{ entry.date }}){% endif %}
+
+{% for change_key, changes in entry.changes.items() %}
+
+{% if change_key %}
+### {{ change_key }}
+{% endif %}
+
+{% for change in changes %}
+{% set message_parts = change.message.split('#') %}
+{% set issue = message_parts[1] %}
+{% set subject = message_parts[0] %}
+{% set issue_link = "[#" + issue + "](https://github.com/renedekat/salary-match/issues/" + issue + ") " if issue else ""  %}
+{% set commit_link = "[" + change.sha1[:7] + "](" + change.sha1 + ")" %}
+{% set scope = "**" + change.scope + "**: " if change.scope else ""  %}
+- {{ commit_link }} - {{ scope }} {{subject }} (*by [{{ change.author }}](mailto:{{ change.author_email }}))*
+{% if issue_link %}
+    - Fixes issue {{ issue_link }}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
