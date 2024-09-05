@@ -1,5 +1,5 @@
 [tool.commitizen]
-version = "0.0.1"
+version = "0.0.2"
 template = ".github/templates/CHANGELOG.md.j2"
 name = "cz_customize"
 
