@@ -1,3 +1,9 @@
+## 0.0.5 (2024-10-02)
+
+### Refactored
+
+- [e6bbdfe](e6bbdfe479081df0f3dd99a4298c58a05e056633) - **packages**:  update composer and npm packages (*by [René de Kat](mailto:info@9lives-development.com))*
+
 ## 0.0.4 (2024-09-18)
 
 ### Refactored
