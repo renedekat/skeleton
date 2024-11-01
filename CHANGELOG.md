@@ -1,3 +1,9 @@
+## 0.0.6 (2024-11-01)
+
+### Bug fixes
+
+- [a8082e2](a8082e2ef3dad1f49f05f8ab6089d66bc93b3f7e) - **testing**:  fix incorrect dusk port (*by [René de Kat](mailto:info@9lives-development.com))*
+
 ## 0.0.5 (2024-10-02)
 
 ### Refactored
